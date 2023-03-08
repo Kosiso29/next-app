@@ -1,6 +1,6 @@
 module.exports = {
     collections_config: {
-        pages: {
+        posts: {
             name: 'Posts',
             path: 'src/_posts',
             parser: 'frontmatter',
