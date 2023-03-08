@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Button from "../components/Button";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function Home() {
         <div className={styles.description}>
             <h1 className='text-3xl font-bold underline'>Tailwind CSS</h1>
             <Button>Button</Button>
+            <Link href="/about">About</Link>
           <p>
             Get started by editing&nbsp;
             <code className={styles.code}>src/pages/index.tsx</code>

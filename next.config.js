@@ -3,7 +3,8 @@ const nextConfig = {
     reactStrictMode: true,
     exportPathMap: async function () {
         return {
-            "/": { page: "/" }
+            "/": { page: "/" },
+            "/about": { page: "/about" }
         };
     },
     images: {
