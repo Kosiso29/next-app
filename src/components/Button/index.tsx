@@ -1,6 +1,6 @@
 
-function Button({ children, pageProps }: any) {
-    return <button  {...pageProps}>{ children }</button>;
+function Button({ children, ...restProps }: any) {
+    return <button  {...restProps}>{ children }</button>;
 }
 
 export default Button;
