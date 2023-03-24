@@ -1,5 +1,6 @@
 
-function Button({ children, pageProps }: any) {
+function Button(props: any) {
+    const { children, ...pageProps } = props;
     return <button  {...pageProps}>{ children }</button>;
 }
 
