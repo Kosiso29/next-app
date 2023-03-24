@@ -19,7 +19,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
             <h1 className='text-3xl font-bold underline editable'>Tailwind CSS</h1>
-            <Button>Button</Button>
+            <Button className='editable'>Button</Button>
             <Link href="/about">About</Link>
           <p className='editable'>
             Get started by editing&nbsp;
