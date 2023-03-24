@@ -18,10 +18,10 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-            <h1 className='text-3xl font-bold underline'>Tailwind CSS</h1>
+            <h1 className='text-3xl font-bold underline editable'>Tailwind CSS</h1>
             <Button>Button</Button>
             <Link href="/about">About</Link>
-          <p>
+          <p className='editable'>
             Get started by editing&nbsp;
             <code className={styles.code}>src/pages/index.tsx</code>
           </p>
